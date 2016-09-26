@@ -28,4 +28,4 @@ if [ -f $logging_config ]; then
 fi
 
 #java -Djava.library.path=$libs $LOGGING_CONFIG_PARAM $JAVA_SYS_PROPS -cp $cp $mainClass $@
-mvn exec:java -Dexec.args="$@"
+mvn exec:java '-Dexec.args="$@"'
