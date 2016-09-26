@@ -29,9 +29,9 @@
       <outputDirectory>lib</outputDirectory>
       <excludes>
         <exclude>**/*.jar</exclude>
+	<exclude>**/*.so</exclude>
         <exclude>native/linux/**</exclude>
         <exclude>native/linux-64/libjn*.so</exclude>
-        <exclude>native/linux-64/libunix*.so</exclude>
 	<exclude>native/macosx/**</exclude>
         <exclude>native/windows/**</exclude>
         <exclude>native/windows-64/**</exclude>
